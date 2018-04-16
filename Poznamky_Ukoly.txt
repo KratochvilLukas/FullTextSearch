@@ -1,0 +1,53 @@
+Kapitola Fulltextové vyhledávání
+	= Možná udělat jednoduchý testík, který ověří rychlost vyhledávání stránku po stráce a za použití vyhledávače.
+
+Kapitola 3.
+	= Zkusit implementovat alespoň nějaké algoritmy a porovnat rychlosti při jednom, více dokumentech. Malá velikost, Velká velikost. Atd.
+
+Pozn. Kapitola Optimalizace vyhledávací fáze
+	= Byla vytknuta chyba, kde jsem k fulltextu pristupoval pouze jako k tem slozitejsim, kterz maji invertovany index, probiha predpriprava i kdyz to bylo v danou chvili nezadouci. V tyhle fazi uz ale mluvime pouze o Vyhledavacich, ktere pouzivaji Fragmentacni algoritmus, jak bylo receno v drivejsich kapitolach, takze je podle me v poradku, ze k tomu tak pristupuju. 
+
+	= Doplnit odkaz na nějaký obrázek, kde složitá query nad velkým počtem dat probehme behem nekolika ms
+
+Kapitola Technologie Fulltextového vyhledávání
+	= Je tam zmínka což mnohé testy dokazují. -> Odkázat se někam.
+
+Kapitola Technologie nad apache Lucene
+	= Jak je videt na obrázku. Doplnit číslo obrázku.
+	= je v tabulce. Doplnit odkaz na tabulku.
+	= 130 bilionu šádků kódu. Kde jsem se to dočet? Doplnit odkaz
+
+Kapitola Ukládání dat
+	= Obrázky Tradiční relační databáze a Elastic Indexu
+
+Kapitola typ
+	= Obrázek pro představu jednotlivých typů v indexu
+
+Dopsat kapitolu správa paměti? 
+	= Pravidelný úklid smazaných dokumentů, jak casto defaultne bezi, lze modifikovat, lze uklid sam vyvolat. Mam k tomu i priklady tak treba ukazat.
+
+Kapitola Rozšíření
+	= Doplnit číslo obrázku, kde je dokázáno, že je elastic na špici mezi vyhledávačema v používatelnosti,
+
+Kapitola implementace
+	= Doplnit obrázek, který demonstruje dobrou časovou a paměťovou optimalizaci. Obrázek by mohl porovnat např. velikost textových dokumentů s textem a jejich zaindexovanou podobu (jakou bude mít index velikost). No a časovou optimalizaci. Kdyz poslu request jak dlouho trva ney se vykona
+
+Kapitola Uvod do zakladniho nastaveni
+	= Obrazek zakladni nastaveni Mongo, Elastic
+
+Kapitola optimalizace
+	= Vytvorit tabulku kde je videt jak je indexace a vyhledavani rychly v zakladnim indexu.
+
+Kapitola Popisek stránky
+	= Vytvorit tabulku s porovnanim, ale asi az v kapitole search query optimization. Kde jednotlive pokusy budou zahrnovat Obycejnou query, MultiMatchQuery, MultiMatchQuery s různou vážností, MultiMatchQuery s rescorerem, MultiMatchQuery s rescorerem, pak případně i s boost value a popularitou
+	= Doplnit čísla obrázků.
+
+Kapitola Boost hodnota
+	= Kazda dalsi query bere vysledky z predchozi query. Optimalizace, ktera mozna neni az tak podstatna, ale neni potreba stale pouzivat stejnou query, ale lze pouzit matchall
+	= Doplnit čísla obrázků
+	= Vytvorit tabulku, kde budou různé případy užití function score field value factoru. Různé modifikátory, atd. 
+
+Kapitola Optimalizace vyhledávacího dotazu
+	= Doplnit tabulku, která znázorňuje jednotlivé optimalizační metody, které jsou použity v aplikaci. 
+
+
