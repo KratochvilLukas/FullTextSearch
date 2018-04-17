@@ -15,7 +15,7 @@ Kapitola Technologie Fulltextového vyhledávání
 Kapitola Technologie nad apache Lucene
 	= Jak je videt na obrázku. Doplnit číslo obrázku.
 	= je v tabulce. Doplnit odkaz na tabulku.
-	= 130 bilionu šádků kódu. Kde jsem se to dočet? Doplnit odkaz
+	= 130 bilionu řádků kódu. Kde jsem se to dočet? Doplnit odkaz
 
 Kapitola Ukládání dat
 	= Obrázky Tradiční relační databáze a Elastic Indexu
@@ -33,13 +33,13 @@ Kapitola implementace
 	= Doplnit obrázek, který demonstruje dobrou časovou a paměťovou optimalizaci. Obrázek by mohl porovnat např. velikost textových dokumentů s textem a jejich zaindexovanou podobu (jakou bude mít index velikost). No a časovou optimalizaci. Kdyz poslu request jak dlouho trva ney se vykona
 
 Kapitola Uvod do zakladniho nastaveni
-	= Obrazek zakladni nastaveni Mongo, Elastic
+	= Cisla obrazkz. Obrazek zakladni nastaveni Mongo, Elastic
 
 Kapitola optimalizace
-	= Vytvorit tabulku kde je videt jak je indexace a vyhledavani rychly v zakladnim indexu.
+	= Doplnit cislo tabulky
 
 Kapitola Popisek stránky
-	= Vytvorit tabulku s porovnanim, ale asi az v kapitole search query optimization. Kde jednotlive pokusy budou zahrnovat Obycejnou query, MultiMatchQuery, MultiMatchQuery s různou vážností, MultiMatchQuery s rescorerem, MultiMatchQuery s rescorerem, pak případně i s boost value a popularitou
+	= Doplnit odkaz na tabulku.
 	= Doplnit čísla obrázků.
 
 Kapitola Boost hodnota
@@ -49,5 +49,15 @@ Kapitola Boost hodnota
 
 Kapitola Optimalizace vyhledávacího dotazu
 	= Doplnit tabulku, která znázorňuje jednotlivé optimalizační metody, které jsou použity v aplikaci. 
+
+
+Pridat do resersni casti kapitolu optimalizace.
+Definovat styl pro zdrojaky
+
+Zaindexovat aplikaci, vytvorit sadu dotazu (mozna nechat vygenerovat?). Vyzkouset vsechny ruzny kategorie a typy dotazu. Kategorie: presne, presna cast textu, nepresny text, diry mezi slovama, uplne spatne, hodne zavadejici.
+hlavni 2 kategorie: 
+Presna fraze, nepresna fraze (prehazene slova), chybi treba slovo ve vete, fraze s preklepy, fraze se synonymy, ruzny pocet synonym, tvaroslovi,  + hodne obecne a hodne specificka a specialni slova - mozna podkategorie kazde kategorie.
+
+- Popis zpusobu reseni: Optimalizace predpoklada, ze cim vyse je vysledek, tak tim spis je uzivatelem nalezen. -> zkusit to odnekud odkazat nebo pouzit jako predpoklad a tim zpusobem se vyhnu prace s lidma. Tim padem my optimalizujeme poradi to, aby pozadovany vysledek byl nahore ve vysledkove sade.
 
 
