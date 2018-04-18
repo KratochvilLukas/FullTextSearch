@@ -1,24 +1,22 @@
 
+Kapitola implementace
+	= Doplnit tabulku, která demonstruje dobrou časovou a paměťovou optimalizaci. Tabulka by mohla obsahovat např. reálnou velikost textových dokumentů s textem a jejich zaindexovanou podobu (jakou bude mít index velikost). Časovou optimalizaci. Kdyz poslu request jak dlouho trva nez se vykona. Jak dlouho probíhá indexace
+
+
 Kapitola 3.
+	???
 	= Zkusit implementovat alespoň nějaké algoritmy a porovnat rychlosti při jednom, více dokumentech. Malá velikost, Velká velikost. Atd.
+	???
 
 Pozn. Kapitola Optimalizace vyhledávací fáze
-
 	= Doplnit odkaz na statistické grafy, které demonsturjí optimalizaci 
 
-Dopsat kapitolu správa paměti? 
+???
+Dopsat kapitolu správa paměti 
 	= Pravidelný úklid smazaných dokumentů, jak casto defaultne bezi, lze modifikovat, lze uklid sam vyvolat. Mam k tomu i priklady tak treba ukazat.
+???
 
-Kapitola implementace
-	= Doplnit obrázek, který demonstruje dobrou časovou a paměťovou optimalizaci. Obrázek by mohl porovnat např. velikost textových dokumentů s textem a jejich zaindexovanou podobu (jakou bude mít index velikost). No a časovou optimalizaci. Kdyz poslu request jak dlouho trva ney se vykona
-
-Kapitola Optimalizace vyhledávacího dotazu - Možná přejmenovat jen na "Rescore"
-	= Doplnit tabulku, která znázorňuje jednotlivé optimalizační metody, které jsou použity v aplikaci. 
-
-Zaindexovat aplikaci, vytvorit sadu dotazu (mozna nechat vygenerovat?). Vyzkouset vsechny ruzny kategorie a typy dotazu. Kategorie: presne, presna cast textu, nepresny text, diry mezi slovama, uplne spatne, hodne zavadejici.
-hlavni 2 kategorie: 
-Presna fraze, nepresna fraze (prehazene slova), chybi treba slovo ve vete, fraze s preklepy, fraze se synonymy, ruzny pocet synonym, tvaroslovi,  + hodne obecne a hodne specificka a specialni slova - mozna podkategorie kazde kategorie.
-
-- Popis zpusobu reseni: Optimalizace predpoklada, ze cim vyse je vysledek, tak tim spis je uzivatelem nalezen. -> zkusit to odnekud odkazat nebo pouzit jako predpoklad a tim zpusobem se vyhnu prace s lidma. Tim padem my optimalizujeme poradi to, aby pozadovany vysledek byl nahore ve vysledkove sade.
-
-
+???
+Kapitola Rescore
+	= Doplnit tabulku, která znázorňuje jednotlivé optimalizační metody, které jsou použity v aplikaci. (phrase, phrase + slop)
+???
