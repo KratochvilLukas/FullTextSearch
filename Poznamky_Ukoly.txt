@@ -20,3 +20,19 @@ Dopsat kapitolu správa paměti
 Kapitola Rescore
 	= Doplnit tabulku, která znázorňuje jednotlivé optimalizační metody, které jsou použity v aplikaci. (phrase, phrase + slop)
 ???
+
+dunnuv test jsme pouzili
+celkovou hypotezu jsme otestovali kruskall wallisem. Box Plot graf
+
+k true/false grafu je fisheruv test - jestli pocty ktery jsou v testech nejak souvisi s typem optimalizace. GG Plot graf
+
+- zprehazet zdroje podle toho jak jsem je v textu pouzil
+
+
+-Jak na formatovani odstavcu abych mel automaticky vygenerovanou osnovu
+-Navrh reseni a kam psat samotny reseni
+
+
+Rozepsat se o typech dotazu proc byly vybrany atd. Popsat vysledky co jsme zisklali. 
+
+= dunnovy post hoc testy ke kruskal wallisozy. Ty po dvou testy. Jedna skupina s druhou. 
